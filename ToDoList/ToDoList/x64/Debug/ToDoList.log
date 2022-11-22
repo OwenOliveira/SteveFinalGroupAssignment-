@@ -1,0 +1,7 @@
+﻿  Source.c
+C:\Users\oweno\source\repos\ToDoList\ToDoList\menuHeader.h(1,9): warning C4068: unknown pragma 'Once'
+C:\Users\oweno\source\repos\ToDoList\ToDoList\Source.c(29,3): warning C4550: expression evaluates to a function which is missing an argument list
+  menuFunction.c
+C:\Users\oweno\source\repos\ToDoList\ToDoList\menuHeader.h(1,9): warning C4068: unknown pragma 'Once'
+  Generating Code...
+  ToDoList.vcxproj -> C:\Users\oweno\source\repos\ToDoList\x64\Debug\ToDoList.exe
