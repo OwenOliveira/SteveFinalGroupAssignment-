@@ -67,16 +67,20 @@ One of your team will submit a single zip file containing:
 • any tests or test cases that you used
 Marking Rubric Evaluation of this program will be broken into 2 sections, one
 worth 25% of the final mark, the other worth 75% of final mark.
+
 For the 25% section:
 10% For overall user friendliness and usability (as much as this
 is subjective, the screens, menus, and/or messages should be
-well-written. The program flow should be logical and intuitive)
+well-written. 
+The program flow should be logical and intuitive)
 10% For the design and internal layout/structure of your program,
 including any and all ADTs.
+
 5% For division of work and the documenting of those different
 roles (having a well-balanced work effort and being able to
 articulate how your group was able to achieve this balance is
 important)
+
 For the 75% section, the actual implementation of the program, the following rubric
 will be used:
 4 3 2 1
@@ -85,38 +89,49 @@ Specifications
 The program works and
 meets all of the specifications.
 (8 points)
+
 The program works and
 produces the correct results and displays them
 correctly. It also meets
 most of the other specifications.
 (6 points)
+
 The program produces correct results but does not
 display them correctly.
 (4 points)
+
 The program is producing
 incorrect results.
 (2 points)
+
 Readability The code is exceptionally
 well organized and very
 easy to follow.
 The code is fairly easy to
 read.
+
 The code is readable only
 by someone who knows
 what it is supposed to be
 doing.
+
 The code is poorly organized and very difficult to
 read.
+
 Reusability The code could be reused
 as a whole or each routine
 could be reused.
+
 Most of the code could be
 reused in other programs.
+
 Some parts of the code
 could be reused in other
 programs.
+
 The code is not organized
 for reusability.
+
 Documentation The documentation is well
 written and clearly explains what the code is accomplishing and how.
 The documentation consists of embedded comment and some simple
@@ -130,6 +145,7 @@ The documentation is simply comments embedded in
 the code and does not help
 the reader understand the
 code.
+
 Standard deductions
 • 100% for submissions ’packaged’ (archived, compressed, etc) using a tool other
 3
