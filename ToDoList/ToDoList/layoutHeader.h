@@ -11,5 +11,8 @@
 #pragma once
 
 void printToDoListPic();
+
 void printMenuOptions();
-void exitProgram();
+//this is a library
+
+
