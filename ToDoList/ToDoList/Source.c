@@ -18,6 +18,8 @@ int main(void)
 {
 	FILE* ToDoList;
 	char userInput;
+	printToDoListPic;
+
 
 	if ((ToDoList = fopen("ToDoList.txt", "r+")) == NULL)            
 	{
@@ -26,7 +28,6 @@ int main(void)
 	}
 	while (1)
 	{
-		printToDoListPic;               
 		printMenuOptions();
 		printf("Please select from the list above with the corrisponding character: "); 
 		scanf("%s", &userInput);             
