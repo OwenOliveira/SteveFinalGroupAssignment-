@@ -7,9 +7,9 @@
 // Nov 22, 2022
 //
 
-#pragma Once
+#pragma once
 
-//void addNewTask();				//Function for case 'a'
+	void addNewTask();				//Function for case 'a'
 //
 //void deleteExistingTask();		//Function for case 'b"
 //

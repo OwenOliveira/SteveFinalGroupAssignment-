@@ -2,9 +2,12 @@
 
 #define MAXLENGTH	30
 
-struct task{
+typedef struct task{
 	int month;
 	int day;
+	int taskId;
 	char element[MAXLENGTH];
 
-};
+}task;
+
+struct task newTask;
