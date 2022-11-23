@@ -10,22 +10,25 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <string.h>
 #include "menuHeader.h"
 #include "struct.h"
+
+#define MAXLENGTH	30
 
 
 void addNewTask()				//Function for case 'a'
 {
 	printf("Enter the day that your task is due.\n");
-	scanf("%d", newTask.day);
+	scanf("%d", &newTask.day);
 
 	printf("Enter the month that your task is due.\n");
-	scanf("%d", newTask.month);
+	scanf("%d", &newTask.month);
 
 	printf("Enter the task that has to be completed.\n");
-	scanf("%s", newTask.element[MAXLENGTH]);
-
-	//task.taskId = ;
+	fgets(newTask.element, MAXLENGTH, stdin);
+	
+	//Add a printf to grab the id of the task ? or write smthn that will assign it with the next number
 
 	printf("Result Saved!\n");
 }

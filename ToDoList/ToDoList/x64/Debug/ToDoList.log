@@ -1,6 +1,3 @@
 ﻿  menuFunction.c
-C:\Users\oweno\source\repos\OwenOliveira\SteveFinalGroupAssignment-\ToDoList\ToDoList\menuFunction.c(17,13): error C2011: 'task': 'struct' type redefinition
-C:\Users\oweno\source\repos\OwenOliveira\SteveFinalGroupAssignment-\ToDoList\ToDoList\struct.h(5): message : see declaration of 'task'
-C:\Users\oweno\source\repos\OwenOliveira\SteveFinalGroupAssignment-\ToDoList\ToDoList\menuFunction.c(33,8): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
-C:\Users\oweno\source\repos\OwenOliveira\SteveFinalGroupAssignment-\ToDoList\ToDoList\menuFunction.c(36,8): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
-C:\Users\oweno\source\repos\OwenOliveira\SteveFinalGroupAssignment-\ToDoList\ToDoList\menuFunction.c(39,8): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\oweno\source\repos\OwenOliveira\SteveFinalGroupAssignment-\ToDoList\ToDoList\menuFunction.c(45,13): warning C4098: 'deleteExistingTask': 'void' function returning a value
+  ToDoList.vcxproj -> C:\Users\oweno\source\repos\OwenOliveira\SteveFinalGroupAssignment-\ToDoList\x64\Debug\ToDoList.exe

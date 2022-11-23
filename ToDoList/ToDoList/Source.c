@@ -14,6 +14,8 @@
 #include "layoutHeader.h"
 #include "menuHeader.h"
 
+#define MAXLENGTH	30
+
 int main(void)
 {
 	FILE* ToDoList;
@@ -33,15 +35,15 @@ int main(void)
 
 		switch (userInput)                   
 		{
-		//case ('a'):                          
-		//case ('A'):							 
-		//	addNewTask();              
-		//	break;                           
+		case ('a'):                          
+		case ('A'):							 
+			addNewTask();              
+			break;                           
 
-		//case ('b'):                         
-		//case ('B'):							 
-		//	deleteExistingTask();
-		//	break;							
+		case ('b'):                         
+		case ('B'):							 
+			deleteExistingTask();
+			break;							
 
 		//case ('c'):                         
 		//case ('C'):                         
